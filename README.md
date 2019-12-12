@@ -15,5 +15,7 @@ This repository contains python scripts for running fMRI GLM analysis, both firs
 
 **Step4:** Second-level analysis, which is to analysis group-level contrast. Run the pipeline spm_glm_secondlevel.py
 
+**Step5:** Visualize GLM results by running jupyter norebook visualize_glm_restuls.ipynb. Can also do further map thresholding and saving whole-brain analysis ROIS.
+
 *If running on cluster in batch jobs, run_spm_glm_firstlevel.sh and run_spm_glm_secondlevel.sh are for submitting batch jobs.*
 
