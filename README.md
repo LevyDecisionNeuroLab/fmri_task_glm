@@ -1,7 +1,11 @@
 # General Nipype pipeline for task-based GLM fMRI analysis
 This repository contains python scripts for running fMRI GLM analysis, both first and second levels, through Nipype. 
 
-(Todo: SPM is used currently to fit GLM, but we also have the FSL scripts ready, and it should be added)
+(Todo: 
+
+SPM is used currently to fit GLM, but we also have the FSL scripts ready, and it should be added.
+
+Piplines for including parameric modulater, and RSA are also ready. Need to be added.)
 
 **Prerequisite**: fMRI data should already be preprocessed and in BIDS format. Behvaior data ready for creating design matrix.
 
