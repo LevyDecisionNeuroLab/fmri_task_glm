@@ -7,19 +7,27 @@ SPM is used currently to fit GLM, but we also have the FSL scripts ready, and it
 
 Piplines for including parameric modulater, and RSA are also ready. Need to be added.)
 
-**Prerequisite**: fMRI data should already be preprocessed and in BIDS format. Behvaior data ready for creating design matrix.
+## Prerequisites: 
+
++ fMRI data preprocessed and in BIDS format.
++ Behvaior data ready for creating design matrix.
++ Python environment ready, the following package installed: 
+  + Basics: numpy, os, pandas, scipy, glob, matplotlib, seaborn
+  + Neuroimaging: Nipype, Nilearn, Nibabel
+  + Advanced stats and machine learning (not required for just running GLM): Brainiak, scikit-learn
++ FSL and SPM (MATLAB) installed.
 
 ## Steps:
 
-**Step1:** Create event files for design matrix. Run create_event_files.py
++ **Step1:** Create event files for design matrix. Run create_event_files.py
 
-**Step2:** fMRI scans in order. If necessary, run rename_imaging_files.py to rename scans.
++ **Step2:** fMRI scans in order. If necessary, run rename_imaging_files.py to rename scans.
 
-**Step3:** First-level analysis, which is to fit GLM to each participant. Run the pipleline spm_glm_firstlevel.py
++ **Step3:** First-level analysis, which is to fit GLM to each participant. Run the pipleline spm_glm_firstlevel.py
 
-**Step4:** Second-level analysis, which is to analysis group-level contrast. Run the pipeline spm_glm_secondlevel.py
++ **Step4:** Second-level analysis, which is to analysis group-level contrast. Run the pipeline spm_glm_secondlevel.py
 
-**Step5:** Visualize GLM results by running jupyter norebook visualize_glm_restuls.ipynb. Can also do further map thresholding and saving whole-brain analysis ROIS.
++ **Step5:** Visualize GLM results by running jupyter norebook visualize_glm_restuls.ipynb. Can also do further map thresholding and saving whole-brain analysis ROIS.
 
 *If running on cluster in batch jobs, run_spm_glm_firstlevel.sh and run_spm_glm_secondlevel.sh are for submitting batch jobs.*
 
