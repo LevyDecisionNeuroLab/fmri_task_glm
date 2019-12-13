@@ -25,10 +25,4 @@ Piplines for including parameric modulater, and RSA are also ready. Need to be a
 
 ## Level1 pipeline flow:
 
-###Images
-
-Image:
-
-![](https://https://github.com/LevyDecisionNeuroLab/fmri_task_glm/blob/master/graph.png)
-
-> Workflow graph
+![Pipeline flowchart](https://github.com/LevyDecisionNeuroLab/fmri_task_glm/blob/master/graph.png)
