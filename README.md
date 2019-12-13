@@ -17,6 +17,13 @@ Piplines for including parameric modulater, and RSA are also ready. Need to be a
   + Advanced stats and machine learning (not required for just running GLM): Brainiak, scikit-learn
 + FSL and SPM (MATLAB) installed.
 
+## References:
+
+Nipype tutorials: [Understand pipeline, node, iterfield, iterables, datasink](https://nipype.readthedocs.io/en/0.11.0/users/pipeline_tutorial.html) 
+
+Poldracklab: [Common workflows](https://github.com/poldracklab/niworkflows/tree/master/niworkflows)
+
+
 ## Steps:
 
 + **Step1:** Create event files for design matrix. Run create_event_files.py
