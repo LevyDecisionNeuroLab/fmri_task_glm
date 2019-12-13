@@ -23,6 +23,10 @@ Piplines for including parameric modulater, and RSA are also ready. Need to be a
 
 *If running on cluster in batch jobs, run_spm_glm_firstlevel.sh and run_spm_glm_secondlevel.sh are for submitting batch jobs.*
 
-## Level1 pipeline flow:
+## Level1 pipeline flow chart:
 
-![Pipeline flowchart](https://github.com/LevyDecisionNeuroLab/fmri_task_glm/blob/master/graph.png)
+![Level1 flowchart](https://github.com/LevyDecisionNeuroLab/fmri_task_glm/blob/master/graph.png)
+
+## Level2 pipeline flow chart:
+
+![Level2 flowchart](https://github.com/LevyDecisionNeuroLab/fmri_task_glm/blob/master/graph_l2.png)
