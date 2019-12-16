@@ -18,9 +18,13 @@ Piplines for including parameric modulater, and RSA are also ready. Need to be a
 
 ## References:
 
-Nipype tutorials: [Understand pipeline, node, iterfield, iterables, datasink](https://nipype.readthedocs.io/en/0.11.0/users/pipeline_tutorial.html) 
+Nipype tutorials: 
 
-Poldracklab: [Common workflows](https://github.com/poldracklab/niworkflows/tree/master/niworkflows)
++ [Understand pipeline, node, iterfield, iterables, datasink](https://nipype.readthedocs.io/en/0.11.0/users/pipeline_tutorial.html) 
+
++ [How to specify design matrix](https://nipype.readthedocs.io/en/0.11.0/users/model_specification.html)
+
+Poldrack lab resources: [Common workflows](https://github.com/poldracklab/niworkflows/tree/master/niworkflows)
 
 
 ## Steps:
