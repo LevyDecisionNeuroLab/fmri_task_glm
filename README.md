@@ -40,8 +40,8 @@ Poldracklab: [Common workflows](https://github.com/poldracklab/niworkflows/tree/
 
 ## Level1 pipeline flow chart:
 
-![Level1 flowchart](https://github.com/LevyDecisionNeuroLab/fmri_task_glm/blob/master/graph.png)
+![Level1 flowchart](https://github.com/LevyDecisionNeuroLab/fmri_task_glm/blob/master/graphs/graph.png)
 
 ## Level2 pipeline flow chart:
 
-![Level2 flowchart](https://github.com/LevyDecisionNeuroLab/fmri_task_glm/blob/master/graph_l2.png)
+![Level2 flowchart](https://github.com/LevyDecisionNeuroLab/fmri_task_glm/blob/master/graphs/graph_l2.png)
