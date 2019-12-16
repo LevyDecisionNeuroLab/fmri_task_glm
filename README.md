@@ -3,7 +3,6 @@ This repository contains python scripts for running fMRI GLM analysis, both firs
 
 (Todo: 
 
-SPM is used currently to fit GLM, but we also have the FSL scripts ready, and it should be added.
 
 Piplines for including parameric modulater, and RSA are also ready. Need to be added.)
 
