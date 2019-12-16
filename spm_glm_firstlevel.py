@@ -121,7 +121,7 @@ def _bids2nipypeinfo(in_file, events_file, regressors_file,
     resp_mask = events.resp != 2    
     resp_onset= np.round(events.resp_onset.values[resp_mask] - del_scan + 2, 3).tolist()
     runinfo.onsets.append(resp_onset)
-    runinfo.durations.append([1] * len(resp_onset))
+    runinfo.durations.append([0] * len(resp_onset))
     runinfo.amplitudes.append([amplitude] * len(resp_onset))
         
             
