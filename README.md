@@ -30,13 +30,13 @@ Poldrack lab resources: [Common workflows](https://github.com/poldracklab/niwork
 
 + **Step2:** fMRI scans in order. If necessary, run ***rename_imaging_files.py*** to rename scans.
 
-+ **Step3:** First-level analysis, which is to fit GLM to each participant. Run the pipleline spm_glm_firstlevel.py. Variations of GLM depend on different ways to set up the design matrix. The basic design matrix includes just binary preditors of trial types, and the response (if any, usually a brief button press) could be modeled as impulse. On top of this, parametric modulators could be added to the binary predictors (spm_pmod_glm_firstlevel.py). GLM could also be conducted before doing RSA (representational similary analysis), in which case each trial condtion for computing RDMs (representation dissimilarity matrix) is modeled as a predictor in the GLM, and no spatial smoothing is applied (spm_rsa_glm_firstlevel.py).
++ **Step3:** First-level analysis, which is to fit GLM to each participant. Run the pipleline ***spm_glm_firstlevel.py***. Variations of GLM depend on different ways to set up the design matrix. The basic design matrix includes just binary preditors of trial types, and the response (if any, usually a brief button press) could be modeled as impulse. On top of this, parametric modulators could be added to the binary predictors (***spm_pmod_glm_firstlevel.py***). GLM could also be conducted before doing RSA (representational similary analysis), in which case each trial condtion for computing RDMs (representation dissimilarity matrix) is modeled as a predictor in the GLM, and no spatial smoothing is applied (***spm_rsa_glm_firstlevel.py***).
 
-+ **Step4:** Second-level analysis, which is to analysis group-level contrast. Run the pipeline spm_glm_secondlevel.py
++ **Step4:** Second-level analysis, which is to analysis group-level contrast. Run the pipeline ***spm_glm_secondlevel.py***.
 
-+ **Step5:** Visualize GLM results by running jupyter norebook visualize_glm_restuls.ipynb. Can also do further map thresholding and saving whole-brain analysis ROIS.
++ **Step5:** Visualize GLM results by running jupyter norebook ***visualize_glm_restuls.ipynb***. Can also do further map thresholding and saving whole-brain analysis ROIS.
 
-*If running on cluster in batch jobs, run_spm_glm_firstlevel.sh and run_spm_glm_secondlevel.sh are for submitting batch jobs.*
++ **Running on cluster:** If running on cluster in batch jobs, ***run_spm_glm_firstlevel.sh*** and ***run_spm_glm_secondlevel.sh*** are for submitting batch jobs.
 
 ## Level1 pipeline flow chart:
 
